@@ -1,6 +1,6 @@
 # sc-qmt
 A repository with the code for quantum measurement tomography (QMT), quantum state tomography (QST) and self-consistent tomography, following the paper *Self-consistent 
-quantum measurement tomography based on semidefinite programming* (Cattaneo et al., preprint arXiv:2212.10262 (2022)).
+quantum measurement tomography based on semidefinite programming* (Cattaneo et al., preprint [arXiv:2212.10262](https://arxiv.org/abs/2212.10262) (2022)).
 All the results of the paper can be found and reproduced here.
 
 ## Installation
