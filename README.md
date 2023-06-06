@@ -4,10 +4,25 @@ quantum measurement tomography based on semidefinite programming* (Cattaneo et a
 All the results of the paper can be found and reproduced here.
 
 ## Installation
-Clone the repository with
-```
-git clone https://github.com/Algorithmiq/sc-qmt.git
-```
+1. Clone the repository using
+   ```
+   git clone https://github.com/Algorithmiq/sc-qmt.git
+   ```
+2. Create a Conda environment from the `sc-qmt.yaml` file in the root of the repository:
+   ```
+   conda env create -f sc-qmt.yaml
+   ```
+   Note that this environment is called `sc-qmt`. The new environment will
+   contain Poetry and the packages needed to build the C extensions of our
+   dependencies.
+3. Activate the new environment:
+   ```
+   conda activate sc-qmt
+   ```
+4. Install project and dependencies for local development:
+   ```
+   poetry install
+   ```
 
 ## Usage
 
