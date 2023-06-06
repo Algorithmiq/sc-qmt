@@ -1,0 +1,14 @@
+name: sc-qmt
+channels:
+  - conda-forge
+dependencies:
+  - blas=*=*openblas*
+  - c-compiler
+  - cmake
+  - cxx-compiler
+  - libopenblas=*=*openmp*
+  - make
+  - pip
+  - python >=3.8,<3.11
+  - pip:
+      - poetry >=1.2
