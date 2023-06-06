@@ -32,7 +32,7 @@ The data for the plots of the paper are stored in the folder `data_folder`. The 
 ### Using semidefinite programming as a fitting method for QMT
 First, let us simulate a QMT experiment by preparing a set of input states given by the Pauli eigenstates `rhoPaulis` for the SIC-POVM with effects given by the list `M`:
 
-```
+```python
 theta = 2 * np.pi / 3
 phi = 4 * np.pi / 3 
 
@@ -58,19 +58,22 @@ rhoPaulis = [np.array([[1, 0],
 
 The experimental frequencies of the QMT experiment with 10000 shots can be generated through the following function:
 
-```
+```python
 num_shots = 10000
-exp_freq = generate_frequencies(num_shots,M,rhoPaulis)
+exp_freq = generate_frequencies(num_shots, M, rhoPaulis)
 ```
 
 Then, we can process the data using a semidefinite program and we reconstruct the POVM effects:
-```
-process_results = run_SDP_QMT(rhoPaulis,exp_freq,SDPtype = 'singleDelta') # single-delta SDP
+
+```python
+process_results = run_SDP_QMT(rhoPaulis, exp_freq, SDPtype = 'singleDelta') # single-delta SDP
 reconstructed_effects = process_results[1] # list of output effects
 SDP_delta = process_results[0] # infinite distance between experimental and reconstructed probability distribution
 ```
+
 ### Examples
-Some examples of how to use the code for the different tomographic tasks discussed in the paper can be found in the files `script_*.py`. The examples include measurement
+Some examples of how to use the code for the different tomographic tasks discussed in the paper can be 
+found in the files `script_*.py`. The examples include measurement
 tomography with and without noise on the input states and self-consistent tomography through the see-saw method.
 
 ## Authors and citation
