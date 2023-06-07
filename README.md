@@ -32,7 +32,7 @@ The data for the plots of the paper are stored in the folder `data_folder`. The 
 ### Using semidefinite programming as a fitting method for QMT
 First, we import all the functions for quantum tomography via SDP from sc-qmt.py:
 ```python
-from sc-qmt import *
+from sc_qmt import *
 ```
 
 Then, let us simulate a QMT experiment by preparing a set of input states given by the Pauli eigenstates `rhoPaulis` for the SIC-POVM with effects given by the list `M`:
