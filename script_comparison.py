@@ -1,4 +1,4 @@
-from functions import *
+from sc_qmt import *
 
 """ The following code produces the data for the comparison between the different SDP methods and log MLE for different dimensions, for 10k number of shots, and for a complete set of input states (Figs. 8 and 9 (upper left))
     """

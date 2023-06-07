@@ -1,4 +1,4 @@
-from functions import *
+from sc_qmt import *
 
 theta = 2 * np.pi / 3
 phi = 4 * np.pi / 3
