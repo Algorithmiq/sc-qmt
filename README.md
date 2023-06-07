@@ -30,7 +30,12 @@ All the results of the paper can be found and reproduced here.
 The data for the plots of the paper are stored in the folder `data_folder`. The notebook `Figures.ipynb` can be used to produce and save the plots.
 
 ### Using semidefinite programming as a fitting method for QMT
-First, let us simulate a QMT experiment by preparing a set of input states given by the Pauli eigenstates `rhoPaulis` for the SIC-POVM with effects given by the list `M`:
+First, we import all the functions for quantum tomography via SDP from sc-qmt.py:
+```python
+from sc-qmt import *
+```
+
+Then, let us simulate a QMT experiment by preparing a set of input states given by the Pauli eigenstates `rhoPaulis` for the SIC-POVM with effects given by the list `M`:
 
 ```python
 theta = 2 * np.pi / 3
