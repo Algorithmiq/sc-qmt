@@ -83,7 +83,7 @@ tomography with and without noise on the input states and self-consistent tomogr
 
 ## Authors and citation
 
-If you find this code useful, please consider citing the paper *Cattaneo et al., preprint arXiv:2212.10262 (2022)*.
+If you find this code useful, please consider citing the paper *Cattaneo et al., Phys. Rev. Res. 5, 033154 (2023)*.
 
 BibTeX record:
 
