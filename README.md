@@ -1,6 +1,6 @@
 # sc-qmt
 A repository with the code for quantum measurement tomography (QMT), quantum state tomography (QST) and self-consistent tomography, following the paper *Self-consistent 
-quantum measurement tomography based on semidefinite programming* (Cattaneo et al., preprint [arXiv:2212.10262](https://arxiv.org/abs/2212.10262) (2022)).
+quantum measurement tomography based on semidefinite programming* (Cattaneo et al., Phys. Rev. Res. 5, 033154 (2023) ([https://journals.aps.org/prresearch/abstract/10.1103/PhysRevResearch.5.033154](https://link.aps.org/doi/10.1103/PhysRevResearch.5.033154))).
 All the results of the paper can be found and reproduced here.
 
 ## Installation
@@ -88,14 +88,21 @@ If you find this code useful, please consider citing the paper *Cattaneo et al.,
 BibTeX record:
 
 ```
-@article{Cattaneo2022,
-   author = {Marco Cattaneo and Elsi-Mari Borrelli and Guillermo García-Pérez and Matteo A. C. Rossi and Zoltán Zimborás and Daniel Cavalcanti},
-   month = {12},
-   title = {Semidefinite programming for self-consistent quantum measurement tomography},   
-   journal = {preprint arXiv:2212.10262},
-   url = {http://arxiv.org/abs/2212.10262},
-   year = {2022},
+@article{PhysRevResearch.5.033154,
+  title = {Self-consistent quantum measurement tomography based on semidefinite programming},
+  author = {Cattaneo, Marco and Rossi, Matteo A. C. and Korhonen, Keijo and Borrelli, Elsi-Mari and Garc\'{\i}a-P\'erez, Guillermo and Zimbor\'as, Zolt\'an and Cavalcanti, Daniel},
+  journal = {Phys. Rev. Res.},
+  volume = {5},
+  issue = {3},
+  pages = {033154},
+  numpages = {14},
+  year = {2023},
+  month = {Sep},
+  publisher = {American Physical Society},
+  doi = {10.1103/PhysRevResearch.5.033154},
+  url = {https://link.aps.org/doi/10.1103/PhysRevResearch.5.033154}
 }
+
 ```
 
 
